@@ -1,0 +1,96 @@
+body {
+    background: rgb(25,31,40) !important;
+}
+.box {
+    width: 55em;
+    margin-left: 18%;
+    height: 100vh;
+    border: 1px solid rgb(87, 109, 143);
+    background: rgb(34, 43, 56);
+}
+.box button {
+    width: 10em;
+    margin-left: 17em;
+    margin-top: 2em;
+}
+.box p {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: 3em;
+    font-size: 2.5em;
+    color: white;
+}
+.box .input-box {
+    position: absolute;
+    margin-left: 22%; 
+    margin-top: 35%;
+}
+.box .input-box input {
+    display: block;
+    width: 40em;
+    height: 3em;
+    margin-top: 1em;
+    background: none;
+    outline: none;
+    border: 1px solid rgb(87, 109, 143);
+    color: white;
+    padding: 0 1em;
+}
+.box .input-box label {
+    color: white;
+    background: rgb(34, 43, 56);
+    padding: 0.1em  .5em;
+    position: relative;
+    top: 3em;
+    font-size: 1.2em;
+    left: 1em;
+    transition: .5s;
+}
+.box .input-box #label2 {
+    margin-left: -1.7em;
+}
+.svg-span svg{
+    width: 2em;
+    height: 2em;
+    position: relative;
+    top: -2.6em;
+    left: 36em;
+    fill: white;
+}
+#eye svg {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: -2.4em;
+    left: 36.2em;
+    color: white;
+}
+input[type="checkbox"]{
+    display: inline-block;
+    width: 1em !important;
+    height: 1em !important;
+}
+.span-label{
+    position: relative;
+    color: white;
+    left: 2em;
+    top: -1.2em;
+    display: inline-block;
+}
+.a{
+    position: relative;
+    top: -1.1em;
+    left: 25em;
+}
+.submit{
+    position: relative;
+    left: -17em;
+    width: 40em !important;
+    height: 3em !important;
+    background: #292f49;
+    border: 1px solid white;
+    color: white;
+}
+.submit:hover{
+    background: #2a008d;
+}
